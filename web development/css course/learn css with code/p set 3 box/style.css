@@ -1,0 +1,21 @@
+.outside{
+    background-color: blue;
+    border-width: 50px;
+    width: 150px;
+    border:  black solid 2px;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    border-style: solid;
+    margin: 10px;
+
+}
+#yellow{
+    background-color: yellow;
+}
+#red{
+    background-color: red;
+}

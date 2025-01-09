@@ -1,0 +1,53 @@
+p{
+    color: rgb(233, 240, 240);
+}
+header{
+    color: white;
+    background-color: black;
+    }
+    nav{
+        background-color:rgb(216, 201, 201);
+        font-size: large;
+    }
+.image{
+    background-color: rgb(63, 61, 61);
+    display: grid;
+    place-items: center;
+}
+.education{
+    background-color: black;
+    color: white;
+}
+.family{
+    background-color: rgb(232, 190, 238);
+    color: rgb(34, 27, 133);
+
+}
+table{
+    color:rgb(241, 236, 232);
+    background-color:rgb(64, 94, 226);
+}
+div{
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+.friends{
+    background-color: grey;
+    color: rgb(8, 231, 247);
+}
+span{
+    background-color:rgb(11, 245, 89);
+    color: rgb(182, 102, 48);
+    font-size: x-large;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.message{
+    font-size: x-large;
+}
+.contact{
+    background-color: aquamarine;
+}

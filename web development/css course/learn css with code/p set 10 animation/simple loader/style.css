@@ -1,0 +1,17 @@
+.loader{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid blue;
+    border-top: 10px solid rgb(39, 247, 11);
+    animation: Animate 2s ease-in-out 0s infinite normal;
+}
+
+@keyframes Animate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

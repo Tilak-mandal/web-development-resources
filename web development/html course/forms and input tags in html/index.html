@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html forms- lets learn it</title>
+</head>
+
+<body>
+    <h1>form to apply for teaching assistant </h1>
+    <hr>
+    <form action="post">
+        <!--input type text-->
+        <div>
+            <label for="username">Enter your username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+        </div>
+        <!--input type radio button-->
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label>
+        </div>
+        <!--input type checkbox-->
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">subscribe to newsletter</label>
+        </div>
+        <!--input type text area-->
+        <div>
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea name="comment" id="comment" cols="50" rows="4"></textarea>
+        </div>
+        <!--input type select-->
+        <div>
+            <label for="degree">degree of certification</label>
+            <br>
+            <select name="degree" id="degree">
+                <option value="+2">+2</option>
+                <option value="bachelor">bachelor</option>
+                <option value="masters">masters</option>
+                <option value="PHD">PHD</option>
+            </select>
+        </div>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+    <hr>
+    <br>
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=HMAD1tKNmcfUjq13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+
+</html>
